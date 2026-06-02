@@ -80,7 +80,7 @@ class CurrencyConverter:
         # Button
         self.button = tk.Button(root, text=cur_lang["convert"], command=self.convert)
         self.button.pack(pady=10)
-
+        self.button.config(bg="pink")
         # Label für Ausgabe
         self.outputLabel = tk.Label(root, text="")
         self.outputLabel.pack(pady=10)
